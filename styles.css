@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    
+    margin: 0;
+    text-align: center;
+     font-family: 'Arial';
+    font-style: normal;
+    color: #1D3557;
+    background: linear-gradient(orange,pink) #F1FAEE;
+    
+}
+
+h1,h2,h3 {
+font-weight: 700px;
+
+}
+
+p {
+font-weight: 400px;
+
+}
+
+#title {
+    background: #1D3557;
+    color:#FFFFFF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#subtitle{
+    background: #457B9D;
+    color:#FFFFFF;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
+#hero {
+  background-image: url("images/Saigon.jpg"); 
+  background-size: cover;
+  padding: 122px 185px 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.activities {
+  
+  padding: 10px;
+  font-size: 16px;
+  
+}
+
+.activities-title {
+    font-size: 24px;
+    margin-top: 40px;
+    
+    
+}
+
+.act-layout {
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.act-section {
+   width: 200px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+
+.act-img {
+    width: 100px;
+    border-radius: 50%;
+    
+
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 20px;
+
+    
+}
+
+#card {
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    background: #457B9D;
+    border-radius: 20px;
+    border-bottom: 5px solid #1D3557;
+    padding: 20px 20px ;
+  
+    
+}
+
+.italic {
+    
+font-style: italic;
+width: 175px;
+}
+
